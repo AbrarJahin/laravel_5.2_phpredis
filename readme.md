@@ -20,7 +20,7 @@ Following this tutorial-
 
     Commands-
 
-        ```bash
+    ```bash
         sudo apt-get update
         sudo apt-get -y install php5-dev
         wget https://github.com/phpredis/phpredis/archive/master.zip
@@ -45,4 +45,4 @@ Following this tutorial-
 
         composer require "vetruvet/laravel-phpredis:1.*"
         # And Then Add the service provider, register that and use that :)
-        ```
+    ```
