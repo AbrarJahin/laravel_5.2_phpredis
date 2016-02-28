@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0a7144311439116b80c8f8f431d9ff0c",
-    "content-hash": "26c1908dc4b1bb29b69bf0e96c1c0810",
+    "hash": "52a839c0aa91f7475c59fabf8965fcc2",
+    "content-hash": "879421595cc89899698998dd66a88adb",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1778,6 +1778,44 @@
                 "dump"
             ],
             "time": "2016-01-07 13:38:51"
+        },
+        {
+            "name": "vetruvet/laravel-phpredis",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vetruvet/laravel-phpredis.git",
+                "reference": "a11dbcd2afdabcc61f5f327822f571d448cf03e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vetruvet/laravel-phpredis/zipball/a11dbcd2afdabcc61f5f327822f571d448cf03e1",
+                "reference": "a11dbcd2afdabcc61f5f327822f571d448cf03e1",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Vetruvet\\PhpRedis": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Valera Trubachev",
+                    "email": "vetruvet@gmail.com"
+                }
+            ],
+            "description": "Use phpredis as the redis connection in Laravel",
+            "keywords": [
+                "laravel",
+                "phpredis",
+                "redis"
+            ],
+            "time": "2014-04-29 04:49:46"
         },
         {
             "name": "vlucas/phpdotenv",
